@@ -1,0 +1,308 @@
+/* General styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #963c00;
+}
+
+/* Header styles */
+header {
+    background-color: #ff7b00;
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header h1 {
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+
+header nav {
+    margin-top: 0px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+header nav li {
+    margin-right: 30px; /* Add space between nav links */
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Add a logo or website name style */
+header .logo {
+    width: 300px; /* adjust the width to your liking */
+    height: 200px; /* adjust the height to your liking */
+    margin-right: 20px; /* add some space between logo and nav */
+    object-fit: contain; /* ensure the logo is scaled properly */
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('head-section.png');
+    background-color: #ff9900;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.hero-images img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+/* Features section styles */
+.features {
+    padding: 50px 0;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Categories section styles */
+.categories {
+    padding: 50px 0;
+}
+
+.category-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.category-card {
+    background-color: rgba(27, 27, 27, 0.705);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    color:#f2f2f2
+}
+
+.category-card:hover {
+    transform: scale(1.1);
+}
+
+.category-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.category-card h3 {
+    font-size: 16px; /* Adjust the font size to your desired size */
+}
+
+/* Community section styles */
+.community {
+    padding: 50px 0;
+}
+
+.community-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.664);
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.community-card img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 5px;
+}
+
+.community-card:hover {
+    transform:scale(1.05);
+}
+
+/* Footer styles */
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer .footer-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer .footer-right {
+    width: 50%; /* adjust the width as needed */
+    padding-right: 20px;
+    text-align: right;
+}
+
+footer .footer-links {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px; /* adjust the margin as needed */
+}
+
+footer .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .footer-links li {
+    margin-bottom: 5px;
+}
+
+footer .footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .footer-links a:hover {
+    text-decoration: underline;
+}
+
+footer .important-links {
+    margin-bottom: 20px;
+}
+
+footer .important-links h4 {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+footer .community-links {
+    margin-bottom: 20px;
+}
+
+footer .community-links h4 {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+footer .footer-right .website-details {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px; /* adjust the margin as needed */
+}
+
+footer .footer-right .website-details img {
+    width: 100px; /* adjust the width as needed */
+    height: 50px; /* adjust the height as needed */
+    margin-bottom: 10px;
+}
+
+footer .footer-right .website-details p {
+    font-size: 14px;
+    color: #999;
+    margin-top: 10px;
+}
+
+footer .important-links, footer .community-links {
+    flex: 1;
+}
+
+footer .important-links a, footer .community-links a {
+    color: #fff; /* Change the link color to white */
+    text-decoration: none; /* Remove the underline */
+}
+
+footer .important-links a:hover, footer .community-links a:hover {
+    text-decoration: underline; /* Remove the underline on hover */
+}
+
+footer .website-details img {
+    width: auto; /* Adjust the width to your desired size */
+    height: 250px; /* Maintain the aspect ratio */
+}
+
+/* Clear floats */
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
